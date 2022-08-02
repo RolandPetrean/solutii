@@ -1,0 +1,26 @@
+// https://www.pbinfo.ro/probleme/972/pozitii
+// ver2
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define endl '\n'
+#define mod 1000000007
+
+int main() {
+  ios_base::sync_with_stdio(false);
+  cin.tie(NULL);
+  
+  string s;
+  getline(cin, s);
+
+  ll cnt=0;
+  string vs{"aeiou"};
+  for (ll i=1; i<s.size()-1; ++i) {
+    bool vc=false, c1=true, c2=true;
+    if (vs.find(s[i]) != string::npos) vc = true;
+    if (vs.find(s[i-1]) != string::npos || s[i-1] == ' ') c1 = false;
+    if (vs.find(s[i+1]) != string::npos || s[i+1] == ' ') c2 = false;
+    if (vc && c1 && c2) ++cnt;
+  }
+  cout<<cnt;
+}
