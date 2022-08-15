@@ -1,5 +1,4 @@
 // https://cses.fi/problemset/task/1640
-// TODO maybe way to do this with sets?
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
