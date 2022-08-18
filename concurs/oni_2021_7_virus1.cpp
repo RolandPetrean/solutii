@@ -1,3 +1,4 @@
+// https://www.pbinfo.ro/probleme/3765/virus1
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
