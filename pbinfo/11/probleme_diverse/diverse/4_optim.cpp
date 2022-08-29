@@ -1,4 +1,4 @@
-// https://www.varena.ro/problema/optim
+// https://www.pbinfo.ro/probleme/1760/optim
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
