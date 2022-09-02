@@ -32,7 +32,7 @@ int main() {
   for (int i=0; i<g; ++i) fin>>eg[i];
   for (int i=0; i<b; ++i) fin>>eb[i];
   
-  vector<int> fr=fight(er, eg, eb), fg=fight(eg, eb, er), fb= fight(eb, er, eg);
+  vector<int> fr=fight(er, eg, eb), fg=fight(eg, eb, er), fb=fight(eb, er, eg);
 
   if (c == 1) {
     pair<int,int> mx{0,0};
