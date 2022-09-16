@@ -1,5 +1,4 @@
-// https://www.pbinfo.ro/probleme/376/suma-divizori
-
+// https://www.pbinfo.ro/probleme/3663/ppdp
 #include <bits/stdc++.h>
 using namespace std;
 #define endl '\n'
@@ -11,12 +10,10 @@ int main() {
   int n;
   cin>>n;
 
-  long long s=0;
-  for (int i=1; i*i<=n; i++) {
+  for (int i=2; i*i<=n; ++i) {
     if (n%i==0) {
-      s += i;
-      if (n/i != i) s += n/i;
+      cout<<i*i;
+      break;
     }
   }
-  cout<<s;
 }

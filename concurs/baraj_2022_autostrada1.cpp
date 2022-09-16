@@ -1,4 +1,4 @@
-// https://www.varena.ro/problema/autostrada
+// https://www.pbinfo.ro/probleme/4141/autostrada1
 #include <bits/stdc++.h>
 #define ll long long
 #define ull unsigned long long
