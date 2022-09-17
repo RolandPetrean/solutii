@@ -1,4 +1,4 @@
-// https://www.pbinfo.ro/probleme/664/nrperechi
+// https://www.pbinfo.ro/probleme/2611/raza
 #include <bits/stdc++.h>
 using namespace std;
 #define endl '\n'
@@ -7,13 +7,9 @@ int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  int n;
-  cin>>n;
+  long long a, b;
+  cin>>a>>b;
 
-  for (int i=0; i<n; ++i) {
-    int x;
-    cin>>x;
-
-    
-  }
+  long long m=a*b/__gcd(a, b);
+  cout<<m/a+m/b-2;
 }
