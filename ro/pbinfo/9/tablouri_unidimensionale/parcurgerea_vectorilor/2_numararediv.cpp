@@ -1,6 +1,7 @@
 // https://www.pbinfo.ro/probleme/4105
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'
+#define endl '\n'
+using namespace std;
 
 int v[10000];
 

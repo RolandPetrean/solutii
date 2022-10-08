@@ -1,6 +1,7 @@
 // https://www.pbinfo.ro/probleme/1212/sumapatrate
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'#define mod 10234573
+#define endl '\n'
+using namespace std;#define mod 10234573
 
 int main() {
   ios_base::sync_with_stdio(false);

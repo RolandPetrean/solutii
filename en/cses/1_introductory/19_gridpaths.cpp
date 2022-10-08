@@ -1,6 +1,8 @@
 // https://cses.fi/problemset/task/1625
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'#define mod 1000000007
+#define endl '\n'
+#define mod 1000000007
+using namespace std;
 
 int found=0;
 vector<int> turns(48);

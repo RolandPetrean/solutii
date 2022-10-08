@@ -1,6 +1,8 @@
 // https://www.pbinfo.ro/probleme/3181/marte3
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'#define mod 1000000007
+#define endl '\n'
+#define mod 1000000007
+using namespace std;
 
 int main() {
   long long n, m, p;

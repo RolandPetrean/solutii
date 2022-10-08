@@ -1,6 +1,7 @@
 // https://www.pbinfo.ro/probleme/1799/dinti1
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'
+#define endl '\n'
+using namespace std;
 
 long long sumdinti(int n) {
   if (n==0) return 0;

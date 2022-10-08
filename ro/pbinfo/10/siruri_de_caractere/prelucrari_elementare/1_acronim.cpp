@@ -1,6 +1,8 @@
 // https://www.pbinfo.ro/probleme/2828/acronim
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'#define mod 1000000007
+#define endl '\n'
+#define mod 1000000007
+using namespace std;
 
 void display(string w) {
   if (isupper(w[0])) {

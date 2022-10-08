@@ -1,6 +1,7 @@
 // https://www.varena.ro/problema/joc6
 #include <bits/stdc++.h>
-using namespace std;#define mod 1000000007
+#define mod 1000000007
+using namespace std;
 
 ifstream fin("joc6.in");
 ofstream fout("joc6.out");

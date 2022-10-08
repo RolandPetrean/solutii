@@ -1,6 +1,8 @@
 // https://cses.fi/problemset/task/2431
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'#define mod 1000000007
+#define endl '\n'
+#define mod 1000000007
+using namespace std;
 
 int pow10(int x) {
   int res = 1;

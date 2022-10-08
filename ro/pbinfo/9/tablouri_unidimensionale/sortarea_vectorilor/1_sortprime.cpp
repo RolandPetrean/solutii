@@ -1,6 +1,7 @@
 // https://www.pbinfo.ro/probleme/510/sortprime
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'
+#define endl '\n'
+using namespace std;
 
 bool prim(long long x) {
   if (x < 2) return false;

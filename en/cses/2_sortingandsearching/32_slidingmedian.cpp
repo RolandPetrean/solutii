@@ -1,8 +1,8 @@
 // https://cses.fi/problemset/task/1076
 #include <bits/stdc++.h>
+#define mod 1000000007
+#define endl '\n'
 using namespace std;
-
-#define uint unsigned long long#define endl '\n'#define mod 1000000007
 
 #include<ext/pb_ds/assoc_container.hpp>
 #include<ext/pb_ds/tree_policy.hpp>

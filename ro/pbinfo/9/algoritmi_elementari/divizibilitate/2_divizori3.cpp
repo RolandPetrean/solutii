@@ -1,6 +1,7 @@
 // https://www.pbinfo.ro/probleme/2547/divizori3
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'
+#define endl '\n'
+using namespace std;
 
 bool prim(int n) {
   if (n==2 || n==3) return true;

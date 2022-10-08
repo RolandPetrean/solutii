@@ -1,7 +1,8 @@
 // https://www.pbinfo.ro/probleme/3729/exclusiv
 // TODO sursa obtine doar 80 de puncte
 #include <bits/stdc++.h>
-using namespace std;#define mod 1000000007
+#define mod 1000000007
+using namespace std;
 
 ifstream fin("exclusiv.in");
 ofstream fout("exclusiv.out");

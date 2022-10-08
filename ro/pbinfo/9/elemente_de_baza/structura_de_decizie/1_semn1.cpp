@@ -1,6 +1,8 @@
 // https://www.pbinfo.ro/probleme/168/semn1
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'#define mod 1000000007
+#define endl '\n'
+#define mod 1000000007
+using namespace std;
 
 int main() {
   ios_base::sync_with_stdio(false);

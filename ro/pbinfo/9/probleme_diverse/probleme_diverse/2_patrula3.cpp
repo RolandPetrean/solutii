@@ -1,6 +1,7 @@
 // https://www.pbinfo.ro/probleme/2748/patrula3
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'
+#define endl '\n'
+using namespace std;
 
 long long lcm(long long a, long long b) {
   return a*b/__gcd(a, b);

@@ -1,6 +1,8 @@
 // https://cses.fi/problemset/task/2162
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'#define mod 1000000007
+#define endl '\n'
+#define mod 1000000007
+using namespace std;
 
 // For ordered set
 #include <ext/pb_ds/assoc_container.hpp>

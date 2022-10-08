@@ -1,6 +1,7 @@
 // https://www.pbinfo.ro/probleme/881/generare4
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'
+#define endl '\n'
+using namespace std;
 
 int limit;
 

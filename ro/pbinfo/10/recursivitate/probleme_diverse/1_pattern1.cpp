@@ -1,6 +1,7 @@
 // https://www.pbinfo.ro/probleme/1952/pattern1
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'
+#define endl '\n'
+using namespace std;
 
 int mat[512][512];
 

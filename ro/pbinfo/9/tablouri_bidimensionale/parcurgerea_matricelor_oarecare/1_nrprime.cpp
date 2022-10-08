@@ -1,6 +1,8 @@
 // https://www.pbinfo.ro/probleme/666/nrprime
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'#define mod 1000000007
+#define endl '\n'
+#define mod 1000000007
+using namespace std;
 
 bool prim(long long n) {
   if (n <= 1) return false;

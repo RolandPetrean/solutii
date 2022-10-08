@@ -1,6 +1,7 @@
 // https://www.pbinfo.ro/probleme/1327/sirpie
 #include <bits/stdc++.h>
-using namespace std;#define mod 1000000007
+#define mod 1000000007
+using namespace std;
 
 ifstream fin("sirpie.in");
 ofstream fout("sirpie.out");

@@ -1,6 +1,7 @@
 // https://www.pbinfo.ro/probleme/116/medieprime
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'
+#define endl '\n'
+using namespace std;
 
 bool prim(long long n) {
   if (n <= 1) return false;

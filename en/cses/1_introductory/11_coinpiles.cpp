@@ -1,7 +1,9 @@
 // https://cses.fi/problemset/task/1754
 // https://discuss.codechef.com/t/coin-piles-problem-from-cses/28647/6
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'#define mod 1000000007
+#define endl '\n'
+#define mod 1000000007
+using namespace std;
 
 int main() {
   ios_base::sync_with_stdio(false);

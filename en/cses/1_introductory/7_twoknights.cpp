@@ -1,7 +1,9 @@
 // https://cses.fi/problemset/task/1072
 // https://www.codespeedy.com/the-two-knights-problem-implemented-in-c/
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'#define mod 1000000007
+#define endl '\n'
+#define mod 1000000007
+using namespace std;
 
 int main() {
   ios_base::sync_with_stdio(false);

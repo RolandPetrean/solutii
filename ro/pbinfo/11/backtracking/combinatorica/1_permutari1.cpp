@@ -1,6 +1,8 @@
 // https://www.pbinfo.ro/probleme/124/permutari1
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'#define mod 1000000007
+#define endl '\n'
+#define mod 1000000007
+using namespace std;
 
 ifstream fin("permutari1.in");
 ofstream fout("permutari1.out");

@@ -1,6 +1,7 @@
 // https://www.pbinfo.ro/probleme/1340/rucsac
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'
+#define endl '\n'
+using namespace std;
 
 bool cmp(pair<long long long long> a, pair<long long long long> b) {
   return (double) a.first / (double) a.second > (double) b.first / (double) b.second;

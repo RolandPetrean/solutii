@@ -1,6 +1,7 @@
 // https://www.pbinfo.ro/probleme/3728/campionat2
 #include <bits/stdc++.h>
-using namespace std;#define mod 1000000007
+#define mod 1000000007
+using namespace std;
 
 ifstream fin("campionat.in");
 ofstream fout("campionat.out");

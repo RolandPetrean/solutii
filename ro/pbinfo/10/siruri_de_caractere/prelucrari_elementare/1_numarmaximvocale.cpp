@@ -1,6 +1,7 @@
 // https://www.pbinfo.ro/probleme/90/numarmaximvocale
 #include <bits/stdc++.h>
-using namespace std;#define mod 1000000007
+#define mod 1000000007
+using namespace std;
 
 ifstream fin("vocmax.in");
 ofstream fout("vocmax.out");

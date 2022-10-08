@@ -1,6 +1,8 @@
 // https://www.pbinfo.ro/probleme/3978/sabc
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'#define mod 1000000007
+#define endl '\n'
+#define mod 1000000007
+using namespace std;
 
 long long s(long long a, long long b) {
   return b*(b+1)/2 - a*(a-1)/2;

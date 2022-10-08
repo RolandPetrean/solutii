@@ -1,6 +1,7 @@
 // https://codeforces.com/problemset/problem/559/B
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'
+#define endl '\n'
+using namespace std;
  
 string lex(string n) {
   if (n.size()&1) return n;

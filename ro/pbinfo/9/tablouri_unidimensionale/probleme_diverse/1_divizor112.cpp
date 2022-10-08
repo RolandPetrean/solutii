@@ -1,6 +1,7 @@
 // https://www.pbinfo.ro/probleme/2024/divizor112
 #include <bits/stdc++.h>
-using namespace std;#define mod 1000000007
+#define mod 1000000007
+using namespace std;
 
 ifstream fin("divizor112.in");
 ofstream fout("divizor112.out");

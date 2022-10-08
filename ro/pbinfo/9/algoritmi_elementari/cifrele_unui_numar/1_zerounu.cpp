@@ -1,6 +1,7 @@
 // https://www.pbinfo.ro/probleme/3933/zero-unu
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'
+#define endl '\n'
+using namespace std;
 
 int main() {
   ios_base::sync_with_stdio(false);

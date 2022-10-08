@@ -1,6 +1,7 @@
 // https://www.pbinfo.ro/probleme/1057/maxp
 #include <bits/stdc++.h>
-using namespace std;#define mod 1000000007
+#define mod 1000000007
+using namespace std;
 
 ifstream fin("maxp.in");
 ofstream fout("maxp.out");

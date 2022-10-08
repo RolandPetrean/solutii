@@ -1,6 +1,7 @@
 // https://www.pbinfo.ro/probleme/1860/blackfriday
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'
+#define endl '\n'
+using namespace std;
 
 ifstream fin("blackfriday.in");
 ofstream fout("blackfriday.out");

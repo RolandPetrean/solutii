@@ -1,6 +1,7 @@
 // https://www.pbinfo.ro/probleme/7/maxim2
 #include <bits/stdc++.h>
-using namespace std;#define mod 1000000007
+#define mod 1000000007
+using namespace std;
 
 ifstream fin("maxim.in");
 ofstream fout("maxim.out");

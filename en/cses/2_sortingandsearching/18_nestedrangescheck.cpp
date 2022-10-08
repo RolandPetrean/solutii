@@ -1,6 +1,8 @@
 // https://cses.fi/problemset/task/2168
 #include <bits/stdc++.h>
-using namespace std;#define endl '\n'#define mod 1000000007
+#define endl '\n'
+#define mod 1000000007
+using namespace std;
 
 bool cmp(pair<int,pair<int,int>> a, pair<int,pair<int,int>> b) {
   return (a.second.first < b.second.first || (a.second.first == b.second.first && a.second.second > b.second.second));
