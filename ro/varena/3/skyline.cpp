@@ -1,8 +1,6 @@
 // https://www.varena.ro/problema/skyline
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
 #define mod 1000000007
 
 ifstream fin("skyline.in");
@@ -12,14 +10,14 @@ int main() {
   int n;
   fin>>n;
 
-  ll maxa=0;
-  stack<pair<ll,ll>> s;
+  long long maxa=0;
+  stack<pair<long long long long>> s;
   for (int i=0; i<=n; ++i) {
-    ll h, l;
+    long long h, l;
     if (i<n) fin>>h>>l;
     else h=l=0;
 
-    ll maxl=0;
+    long long maxl=0;
     while (!s.empty() && s.top().first>h) {
       maxl += s.top().second;
       maxa = max(maxa, s.top().first*maxl);

@@ -1,9 +1,6 @@
 // https://www.pbinfo.ro/probleme/1048/schi
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define ull unsigned long long
-#define mod 1000000007
+using namespace std;#define mod 1000000007
 
 ifstream fin("schi.in");
 ofstream fout("schi.out");

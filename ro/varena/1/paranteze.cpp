@@ -2,8 +2,6 @@
 // TLE la ultimul test, ia doar 90 de pct. habar nu am de ce
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
 #define mod 1000000007
 
 ifstream fin("paranteze.in");

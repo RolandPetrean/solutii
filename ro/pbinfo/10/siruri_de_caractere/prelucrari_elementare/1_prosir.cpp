@@ -1,8 +1,6 @@
 // https://www.pbinfo.ro/probleme/1866/prosir
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define mod 1000000007
+using namespace std;#define mod 1000000007
 
 ifstream fin("prosir.in");
 ofstream fout("prosir.out");
@@ -20,7 +18,7 @@ int main() {
   string s;
   getline(fin, s);
   
-  ll pos=0;
+  long long pos=0;
   while ((pos = s.find(" ")) != string::npos) {
     ++pos;
     display(s.substr(0, pos));

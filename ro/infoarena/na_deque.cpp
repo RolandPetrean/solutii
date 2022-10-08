@@ -1,8 +1,6 @@
 // https://infoarena.ro/problema/deque
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
 #define mod 1000000007
 
 ifstream fin("deque.in");
@@ -20,7 +18,7 @@ int main() {
     dq.push_back(i);
   }
 
-  ll s=a[dq.front()];
+  long long s=a[dq.front()];
   for (int i=k; i<n; ++i) {
     fin>>a[i];
     while (!dq.empty() && dq.front() <= i-k) dq.pop_front();

@@ -1,8 +1,6 @@
 // https://www.varena.ro/problema/suita
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
 #define mod 1000000007
 
 void get_int(int* int_input) { // parsing

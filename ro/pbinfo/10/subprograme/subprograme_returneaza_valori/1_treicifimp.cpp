@@ -1,13 +1,10 @@
 // https://www.pbinfo.ro/probleme/2859/treicifimp
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
-#define endl '\n'
-#define mod 1000000007
+#define endl '\n'#define mod 1000000007
 
-bool TreiCifImp(ll n) {
-  ll i=0;
+bool TreiCifImp(long long n) {
+  long long i=0;
   while (n>0) {
     if ((n%10)&1) {
       ++i;

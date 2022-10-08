@@ -2,8 +2,6 @@
 // TODO solutia are 90 pct, implementeaza cu stiva
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
 #define mod 1000000007
 
 ifstream fin("valoare.in");
@@ -14,13 +12,13 @@ bool isnum(char c) {
 }
 
 int parse(string s) {
-  ull t=0, v=0;
+  long long t=0, v=0;
   for (int i=0; i<s.size(); ++i) {
     char c=s[i];
 
     if (isalpha(c)) v = c-'A'+1;
     else if (isnum(c)) {
-      ull currn=0;
+      long long currn=0;
       while (isnum(c) && i<s.size()) {
         currn *= 10;
         currn += c-'0';

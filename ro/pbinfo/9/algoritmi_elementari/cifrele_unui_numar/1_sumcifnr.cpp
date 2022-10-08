@@ -1,7 +1,6 @@
 // https://www.pbinfo.ro/probleme/3662/sumcifnrcif
 #include <bits/stdc++.h>
-using namespace std;
-#define endl '\n'
+using namespace std;#define endl '\n'
 
 int nrcif(int n) {
   int cnt=0;

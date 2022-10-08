@@ -1,7 +1,6 @@
 // https://www.pbinfo.ro/probleme/493/constr
 #include <bits/stdc++.h>
-using namespace std;
-#define endl '\n'
+using namespace std;#define endl '\n'
 
 int sumcif(int n) {
   int s=0;

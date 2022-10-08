@@ -1,25 +1,22 @@
 // https://www.pbinfo.ro/probleme/287/veriford
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
-#define mod 1000000007
+using namespace std;#define endl '\n'#define mod 1000000007
 
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll n;
+  long long n;
   cin>>n;
 
-  for (ll i=0; i<n; ++i) {
-    ll m;
+  for (int i=0; i<n; ++i) {
+    long long m;
     cin>>m;
 
-    ll l, o=1;
+    long long l, o=1;
     cin>>l;
-    for (ll j=1; j<m; ++j) {
-      ll x;
+    for (int j=1; j<m; ++j) {
+      long long x;
       cin>>x;
       if (x<l) o=0;
       l=x;

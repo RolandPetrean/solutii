@@ -1,13 +1,10 @@
 // https://www.pbinfo.ro/probleme/666/nrprime
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
-#define mod 1000000007
+using namespace std;#define endl '\n'#define mod 1000000007
 
-bool prim(ll n) {
+bool prim(long long n) {
   if (n <= 1) return false;
-  for (ll i=2; i*i<=n; ++i) {
+  for (int i=2; i*i<=n; ++i) {
     if (n%i==0) return false;
   }
   return true;
@@ -17,13 +14,13 @@ int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll n, m;
+  long long n, m;
   cin>>n>>m;
 
-  ll s=0;
-  for (ll i=0; i<n; ++i) {
-    for (ll j=0; j<m; ++j) {
-      ll x;
+  long long s=0;
+  for (int i=0; i<n; ++i) {
+    for (int j=0; j<m; ++j) {
+      long long x;
       cin>>x;
       if (i&1 && prim(x)) ++s;
     }

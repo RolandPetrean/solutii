@@ -1,9 +1,6 @@
 // https://cses.fi/problemset/task/1755
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
-#define mod 1000000007
+using namespace std;#define endl '\n'#define mod 1000000007
 
 int main() {
   ios_base::sync_with_stdio(false);
@@ -12,7 +9,7 @@ int main() {
   string initial;
   cin>>initial;
 
-  array<ll, 26> chars;
+  array<int, 26> chars;
   chars.fill(0);
   for (char ch : initial) {
     chars[ch-65]++; // Encode the characters in a frequency array
@@ -20,9 +17,9 @@ int main() {
 
   string res;
   char mid = '\0';
-  for (ll i=0; i<26; i++) {
+  for (int i=0; i<26; i++) {
     char ch = i + 65;
-    ll count = chars[i];
+    int count = chars[i];
     if (count == 0) continue;
 
     if ((count&1)) {

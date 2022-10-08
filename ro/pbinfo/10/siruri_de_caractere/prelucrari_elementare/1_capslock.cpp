@@ -1,8 +1,6 @@
 // https://www.pbinfo.ro/probleme/2635/capslock
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define mod 1000000007
+using namespace std;#define mod 1000000007
 
 ifstream fin("capslock.in");
 ofstream fout("capslock.out");
@@ -12,7 +10,7 @@ int main() {
   getline(fin, s);
 
   bool caps=false;
-  for (ll i=0; i<s.size(); ++i) {
+  for (int i=0; i<s.size(); ++i) {
     if (s[i] == '#') {
       caps = !caps;
       s.erase(s.begin()+(i--));

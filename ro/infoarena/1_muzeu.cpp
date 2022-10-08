@@ -1,8 +1,6 @@
 // https://infoarena.ro/problema/muzeu
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
 #define mod 1000000007
 
 ifstream fin("muzeu.in");

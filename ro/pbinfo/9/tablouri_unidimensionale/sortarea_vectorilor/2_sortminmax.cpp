@@ -1,19 +1,17 @@
 // https://www.pbinfo.ro/probleme/180/sortminmax
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
+using namespace std;#define endl '\n'
 
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll n;
+  long long n;
   cin>>n;
 
-  pair<ll,ll> mini{1001,0}, maxi{0,0};
-  vector<ll> nr(n);
-  for (ll i=0; i<n; ++i) {
+  pair<long long long long> mini{1001,0}, maxi{0,0};
+  vector<long long> nr(n);
+  for (int i=0; i<n; ++i) {
     cin>>nr[i];
     mini = min(mini, {nr[i],i});
     maxi = max(maxi, {nr[i],i});

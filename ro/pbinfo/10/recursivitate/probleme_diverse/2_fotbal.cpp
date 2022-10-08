@@ -1,7 +1,6 @@
 // https://www.pbinfo.ro/probleme/1660/fotbal
 #include <bits/stdc++.h>
-using namespace std;
-#define endl '\n'
+using namespace std;#define endl '\n'
 
 int scor(int a, int b) {
   if (a==0 && b==0) return 1;

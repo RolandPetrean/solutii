@@ -1,7 +1,6 @@
 // https://www.pbinfo.ro/probleme/3810/sfera
 #include <bits/stdc++.h>
-using namespace std;
-#define endl '\n'
+using namespace std;#define endl '\n'
 #define PI 3.1415
 
 int main() {

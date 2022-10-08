@@ -1,18 +1,15 @@
 // https://www.pbinfo.ro/probleme/1311/cifegale
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
-#define mod 1000000007
+using namespace std;#define endl '\n'#define mod 1000000007
 
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll n;
+  long long n;
   cin>>n;
 
-  ll c=n%10;
+  long long c=n%10;
   while (n>0) {
     if (n%10 != c) {
       cout<<"nu";

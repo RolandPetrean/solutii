@@ -1,20 +1,17 @@
 // https://www.pbinfo.ro/probleme/618/inaltimi
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
-#define mod 1000000007
+using namespace std;#define endl '\n'#define mod 1000000007
 
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
 
-  ll n;
+  long long n;
   cin>>n;
 
-  vector<pair<ll, ll>> e;
-  for (ll i=0; i<n; ++i) {
-    ll x;
+  vector<pair<long long long long>> e;
+  for (int i=0; i<n; ++i) {
+    long long x;
     cin>>x;
     e.push_back({x, i+1});
   }

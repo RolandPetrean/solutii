@@ -1,11 +1,8 @@
 // https://cses.fi/problemset/task/2165
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
-#define mod 1000000007
+using namespace std;#define endl '\n'#define mod 1000000007
 
-void hanoi(ll n, ll start, ll end, ll aux) {
+void hanoi(int n, int start, int end, int aux) {
   if (n == 1) {
     cout<<start<<" "<<end<<endl;
     return;
@@ -19,7 +16,7 @@ int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll n;
+  int n;
   cin>>n;
   cout<<(1<<n)-1<<endl;
   hanoi(n, 1, 3, 2);

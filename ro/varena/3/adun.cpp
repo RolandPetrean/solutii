@@ -1,19 +1,17 @@
 // https://www.varena.ro/problema/adun
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
 #define mod 1000000007
 
 ifstream fin("adun.in");
 ofstream fout("adun.out");
 
 int main() {
-  ll x=-1, y=-1, z=-1, op=0;
+  long long x=-1, y=-1, z=-1, op=0;
   char c;
   while (fin>>c) {
     if (isdigit(c)) {
-      ll num=0;
+      long long num=0;
       while (isdigit(c)) {
         num = num*10+(c-'0');
         fin>>c;

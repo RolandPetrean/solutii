@@ -1,22 +1,19 @@
 // https://www.pbinfo.ro/probleme/291/verifnrparcifre
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
-#define mod 1000000007
+using namespace std;#define endl '\n'#define mod 1000000007
 
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll n;
+  long long n;
   cin>>n;
 
-  for (ll i=0; i<n; ++i) {
-    ll x;
+  for (int i=0; i<n; ++i) {
+    long long x;
     cin>>x;
 
-    ll c=0;
+    long long c=0;
     if (x==0) ++c;
     while (x>0) {
       ++c;

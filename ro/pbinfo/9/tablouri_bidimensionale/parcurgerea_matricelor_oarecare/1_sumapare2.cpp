@@ -1,21 +1,18 @@
 // https://www.pbinfo.ro/probleme/767/sumapare2
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
-#define mod 1000000007
+using namespace std;#define endl '\n'#define mod 1000000007
 
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll n, m;
+  long long n, m;
   cin>>n>>m;
 
-  ll s=0;
-  for (ll i=0; i<n; ++i) {
-    for (ll j=0; j<m; ++j) {
-      ll x;
+  long long s=0;
+  for (int i=0; i<n; ++i) {
+    for (int j=0; j<m; ++j) {
+      long long x;
       cin>>x;
       if (x%2==0) s += x;
     }

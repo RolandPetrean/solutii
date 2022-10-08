@@ -1,14 +1,12 @@
 // https://www.pbinfo.ro/probleme/55/minimpozitive
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
+using namespace std;#define endl '\n'
 
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll x, mini=LONG_LONG_MAX;
+  long long x, mini=LONG_LONG_MAX;
   while (cin>>x && x != 0) {
     if (x > 0) mini = min(mini, x);
   }

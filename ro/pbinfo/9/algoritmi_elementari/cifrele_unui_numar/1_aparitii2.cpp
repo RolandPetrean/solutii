@@ -1,21 +1,19 @@
 // https://www.pbinfo.ro/probleme/108/aparitii2
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
+using namespace std;#define endl '\n'
 
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll n;
+  long long n;
   cin>>n;
   if (n == 0) {
     cout<<1;
     return 0;
   }
 
-  ll c=n, x, s=0;
+  long long c=n, x, s=0;
   while (c>0) {
     x = c%10;
     c /= 10;

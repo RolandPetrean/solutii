@@ -1,7 +1,6 @@
 // http://www.usaco.org/index.php?page=viewproblem2&cpid=1059
 #include <bits/stdc++.h>
-using namespace std;
-#define endl '\n'
+using namespace std;#define endl '\n'
 
 int main() {
   ios_base::sync_with_stdio(false);

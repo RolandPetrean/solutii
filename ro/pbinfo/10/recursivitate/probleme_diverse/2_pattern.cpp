@@ -1,7 +1,6 @@
 // https://www.pbinfo.ro/probleme/845/pattern
 #include <bits/stdc++.h>
-using namespace std;
-#define endl '\n'
+using namespace std;#define endl '\n'
 
 bool m[1050][1050]{};
 

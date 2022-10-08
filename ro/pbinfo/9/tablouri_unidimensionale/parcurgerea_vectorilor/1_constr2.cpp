@@ -1,7 +1,6 @@
 // https://www.pbinfo.ro/probleme/495/constr2
 #include <bits/stdc++.h>
-using namespace std;
-#define endl '\n'
+using namespace std;#define endl '\n'
 
 bool prim(int x) {
   if (x<4) return x>=2;

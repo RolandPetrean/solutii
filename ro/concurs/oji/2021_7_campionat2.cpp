@@ -1,9 +1,6 @@
 // https://www.pbinfo.ro/probleme/3728/campionat2
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define ull unsigned long long
-#define mod 1000000007
+using namespace std;#define mod 1000000007
 
 ifstream fin("campionat.in");
 ofstream fout("campionat.out");
@@ -42,7 +39,7 @@ int main() {
 
     for (auto v : l) fout<<v<<" ";
   } else {
-    vector<ll> camp;
+    vector<long long> camp;
     for (int i=0; i<n; ++i) {
       vector<int> c=e;
       c[i] += m[i]*3;

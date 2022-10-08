@@ -1,19 +1,17 @@
 // https://www.pbinfo.ro/probleme/92/proiecte
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define mod 1000000007
+using namespace std;#define mod 1000000007
 
 ifstream fin("proiecte.in");
 ofstream fout("proiecte.out");
 
 int main() {
-  ll n;
+  long long n;
   fin>>n;
 
-  vector<pair<ll,ll>> p;
-  for (ll i=0; i<n; ++i) {
-    ll x;
+  vector<pair<long long long long>> p;
+  for (int i=0; i<n; ++i) {
+    long long x;
     fin>>x;
     p.push_back({x, i+1});
   }

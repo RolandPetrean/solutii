@@ -1,10 +1,7 @@
 // https://cses.fi/problemset/task/1141
 // https://discuss.codechef.com/t/help-in-cses-problem-playlist/67085
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
-#define mod 1000000007
+using namespace std;#define endl '\n'#define mod 1000000007
 
 // Using a set would fail in
 // 10
@@ -14,13 +11,13 @@ int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll n;
+  int n;
   cin>>n;
 
-  map<ll, ll> s;
-  ll l=0, best=0; // l is the left pointer, best is greedy
-  for (ll i=1; i<=n; i++) {
-    ll x;
+  map<int,int> s;
+  int l=0, best=0; // l is the left pointer, best is greedy
+  for (int i=1; i<=n; i++) {
+    int x;
     cin>>x;
 
     // If x is a duplicate, increase left pointer to be after the old one

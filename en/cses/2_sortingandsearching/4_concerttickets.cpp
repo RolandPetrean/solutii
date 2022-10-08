@@ -1,24 +1,21 @@
 // https://cses.fi/problemset/task/1091
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
-#define mod 1000000007
+using namespace std;#define endl '\n'#define mod 1000000007
 
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll n, m, x;
+  int n, m, x;
   cin>>n>>m;
 
-  multiset<ll> prices;
-  for (ll i=0; i<n; i++) {
+  multiset<int> prices;
+  for (int i=0; i<n; i++) {
     cin>>x;
     prices.emplace(x);
   }
 
-  for (ll i=0; i<m; i++) {
+  for (int i=0; i<m; i++) {
     cin>>x;
 
     auto it = prices.upper_bound(x); // Find the smallest unaffordable ticket

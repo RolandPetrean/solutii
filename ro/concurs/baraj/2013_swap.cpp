@@ -1,9 +1,6 @@
 // https://www.varena.ro/problema/swap
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define ull unsigned long long
-#define mod 1000000007
+using namespace std;#define mod 1000000007
 
 ifstream fin("swap.in");
 ofstream fout("swap.out");

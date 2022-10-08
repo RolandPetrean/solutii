@@ -1,7 +1,6 @@
 // https://www.pbinfo.ro/probleme/1923/egale
 #include <bits/stdc++.h>
-using namespace std;
-#define endl '\n'
+using namespace std;#define endl '\n'
 
 ifstream fin("egale.in");
 ofstream fout("egale.out");

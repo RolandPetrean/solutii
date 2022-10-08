@@ -2,8 +2,6 @@
 // 95p, killed by signal 11 pe testul 1 :cry:
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
 #define mod 1000000007
 
 ifstream fin("traseu3.in");

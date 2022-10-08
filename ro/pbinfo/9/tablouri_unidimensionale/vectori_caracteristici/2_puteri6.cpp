@@ -1,15 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
+
 
 ifstream fin("puteri6.in");
 ofstream fout("puteri6.out");
 
 int main() {
-  ll n, x;
+  long long n, x;
   fin>>n;
 
-  array<ll,10> p{};
+  array<long long,10> p{};
   while (fin>>x) {
     ++p[log10(x)];
   }

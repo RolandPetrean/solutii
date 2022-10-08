@@ -1,8 +1,8 @@
 // https://www.pbinfo.ro/probleme/4082/pelican
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
+
+
 
 ifstream fin("pelican.in");
 ofstream fout("pelican.out");

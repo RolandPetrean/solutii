@@ -1,11 +1,8 @@
 // https://www.pbinfo.ro/probleme/823/sumcifrec
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
-#define endl '\n'
-#define mod 1000000007
+#define endl '\n'#define mod 1000000007
 
-ll sumcif(ll n) {
+long long sumcif(long long n) {
   return n == 0 ? 0 : n%10+sumcif(n/10);
 }

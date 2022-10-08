@@ -1,23 +1,20 @@
 // https://cses.fi/problemset/task/1662
 // https://usaco.guide/problems/cses-1662-subarray-divisibility/solution - very useful
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
-#define mod 1000000007
+using namespace std;#define endl '\n'#define mod 1000000007
 
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll n;
+  int n;
   cin>>n;
 
-  ll p=0, t=0;
-  vector<ll> m(n);
+  int p=0, t=0;
+  vector<int> m(n);
   m[0] = 1;
-  for (ll i=0; i<n; ++i) {
-    ll a;
+  for (int i=0; i<n; ++i) {
+    int a;
     cin>>a;
     
     p += a;

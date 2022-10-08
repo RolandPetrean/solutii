@@ -1,7 +1,6 @@
 // https://www.pbinfo.ro/probleme/842/dinti
 #include <bits/stdc++.h>
-using namespace std;
-#define endl '\n'
+using namespace std;#define endl '\n'
 
 void dinti(int n) {
   if (n==0) return;

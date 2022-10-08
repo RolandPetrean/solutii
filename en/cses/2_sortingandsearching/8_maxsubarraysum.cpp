@@ -1,21 +1,18 @@
 // https://cses.fi/problemset/task/1643
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
-#define mod 1000000007
+using namespace std;#define endl '\n'#define mod 1000000007
 
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll n;
+  int n;
   cin>>n;
 
   // Greedy
-  ll curr=0, best=LONG_MIN;
-  for (ll i=0; i<n; i++) {
-    ll x;
+  int curr=0, best=LONG_MIN;
+  for (int i=0; i<n; i++) {
+    int x;
     cin>>x;
     curr = max(curr + x, x); // Can continue subarray or start new one
     best = max(best, curr);

@@ -1,8 +1,6 @@
 // https://www.varena.ro/problema/zaphod1
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
 #define mod 1000000007
 
 ifstream fin("zaphod1.in");
@@ -14,7 +12,7 @@ int main() {
 
   queue<int> q;
   int s=2;
-  ll r=1;
+  long long r=1;
   for (int i=0; i<n-1; ++i) {
     r += s;
     if (r<=35000000) q.push(r);

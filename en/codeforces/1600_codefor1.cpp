@@ -1,7 +1,6 @@
 // https://codeforces.com/problemset/problem/768/B
 #include <bits/stdc++.h>
-using namespace std;
-#define endl '\n'
+using namespace std;#define endl '\n'
 
 long long mijloc(long long n) {
   long long x=1;

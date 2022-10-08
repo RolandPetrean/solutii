@@ -1,21 +1,18 @@
 // https://cses.fi/problemset/task/2428
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
-#define mod 1000000007
+using namespace std;#define endl '\n'#define mod 1000000007
 
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll n, k;
+  int n, k;
   cin>>n>>k;
 
-  ll l=0, d=0, t=0;;
-  map<ll,ll> m;
-  vector<ll> x(n);
-  for (ll i=0; i<n; ++i) {
+  int l=0, d=0, t=0;;
+  map<int,int> m;
+  vector<int> x(n);
+  for (int i=0; i<n; ++i) {
     cin>>x[i];
 
     if (m[x[i]]++ == 0) ++d;

@@ -1,33 +1,30 @@
 // https://www.pbinfo.ro/probleme/316/mincols2
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
-#define mod 1000000007
+using namespace std;#define endl '\n'#define mod 1000000007
 
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll n, m;
+  long long n, m;
   cin>>n>>m;
 
-  ll mini=LONG_LONG_MAX;
-  vector<vector<ll>> x(n, vector<ll>(m));
-  for (ll i=0; i<n; ++i) {
-    for (ll j=0; j<m; ++j) {
+  long long mini=LONG_LONG_MAX;
+  vector<vector<long long>> x(n, vector<long long>(m));
+  for (int i=0; i<n; ++i) {
+    for (int j=0; j<m; ++j) {
       cin>>x[i][j];
       mini = min(mini, x[i][j]);
     }
   }
 
-  for (ll j=0; j<m; ++j) {
+  for (int j=0; j<m; ++j) {
     bool c=false;
-    for (ll i=0; i<n; ++i) {
+    for (int i=0; i<n; ++i) {
       if (x[i][j] == mini) c = true;
     }
     if (c) {
-      for (ll i=0; i<n; ++i) x[i][j] = mini;
+      for (int i=0; i<n; ++i) x[i][j] = mini;
     }
   }
 

@@ -3,8 +3,6 @@
 // Probabil ca trebuie lee cu mai multe porniri dar nu stiam asta cand am scris sursa :))
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
 #define mod 1000000007
 
 ifstream fin("insule.in");

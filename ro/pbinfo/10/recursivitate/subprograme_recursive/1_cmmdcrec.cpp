@@ -1,10 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
-#define endl '\n'
-#define mod 1000000007
+#define endl '\n'#define mod 1000000007
 
-ll cmmdc(ll a, ll b) {
+long long cmmdc(long long a, long long b) {
   return __gcd(a, b);
 }

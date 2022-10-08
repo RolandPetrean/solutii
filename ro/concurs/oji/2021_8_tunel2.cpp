@@ -1,8 +1,6 @@
 // https://www.pbinfo.ro/probleme/3731/tunel2
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
 #define mod 1000000007
 
 ifstream fin("tunel2.in");

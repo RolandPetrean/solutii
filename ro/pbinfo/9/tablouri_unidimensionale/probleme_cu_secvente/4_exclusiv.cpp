@@ -2,8 +2,6 @@
 // TODO sursa obtine doar 80 de puncte
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
 #define mod 1000000007
 
 ifstream fin("exclusiv.in");

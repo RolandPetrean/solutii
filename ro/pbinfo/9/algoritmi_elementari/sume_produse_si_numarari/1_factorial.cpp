@@ -1,10 +1,8 @@
 // https://www.pbinfo.ro/probleme/49/factorial
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
+using namespace std;#define endl '\n'
 
-ll fact(ll n) {
+long long fact(long long n) {
   if (n == 0) return 1;
   return n*fact(n-1);
 }
@@ -13,7 +11,7 @@ int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll n;
+  long long n;
   cin>>n;
   cout<<fact(n);
 }

@@ -1,8 +1,6 @@
 // https://www.pbinfo.ro/probleme/4084/pseudocmp
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
 #define mod 1000000007
 
 ifstream fin("pseudocmp.in");
@@ -37,7 +35,7 @@ int main() {
   }
 
   array<int,60> s{};
-  ll p=0;
+  long long p=0;
   for (int i=0; i<n; ++i) {
     int c=sumcif(a[i]);
     for (int j=c+1; j<=54; ++j) p += s[j];

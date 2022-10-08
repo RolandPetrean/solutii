@@ -1,7 +1,6 @@
 // https://www.pbinfo.ro/probleme/82/minmax
 #include <bits/stdc++.h>
-using namespace std;
-#define endl '\n'
+using namespace std;#define endl '\n'
 
 ifstream fin("minmax.in");
 ofstream fout("minmax.out");

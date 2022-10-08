@@ -1,8 +1,6 @@
 // https://www.varena.ro/problema/joc6
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
 #define mod 1000000007
 
 ifstream fin("joc6.in");
@@ -10,13 +8,13 @@ ofstream fout("joc6.out");
 
 // dp[x][y] - valoarea secventei care se termina pe x folosind y bile speciale
 int b[500001];
-ll dp[500001][3];
+long long dp[500001][3];
 
 int main() {
   int n, k, p;
   fin>>n>>k>>p;
 
-  pair<ll,int> maxi{0,0};
+  pair<long long,int> maxi{0,0};
   for (int i=0; i<k; ++i) {
     memset(b, 0, sizeof(b));
 

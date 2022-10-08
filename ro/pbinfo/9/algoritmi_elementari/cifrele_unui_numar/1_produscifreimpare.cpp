@@ -1,18 +1,16 @@
 // https://www.pbinfo.ro/probleme/65/produscifreimpare
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
+using namespace std;#define endl '\n'
 
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll n;
+  long long n;
   cin>>n;
 
   bool k=false;
-  ll s = 1;
+  long long s = 1;
   while (n) {
     if ((n%10)&1) {
       k = true;

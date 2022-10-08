@@ -1,10 +1,8 @@
 // https://cses.fi/problemset/task/1192
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
-#define endl '\n'
-#define mod 1000000007
+
+#define uint unsigned long long#define endl '\n'#define mod 1000000007
 
 int n, m;
 array<pair<int,int>,4> dir{{{1, 0}, {0, 1}, {-1, 0}, {0, -1}}};

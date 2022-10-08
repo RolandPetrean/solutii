@@ -1,8 +1,6 @@
 // https://www.pbinfo.ro/probleme/4136/subsir
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
 #define mod 1000000007
 
 ifstream fin("subsir.in");

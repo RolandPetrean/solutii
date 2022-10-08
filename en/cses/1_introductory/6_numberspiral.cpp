@@ -1,19 +1,16 @@
 // https://cses.fi/problemset/task/1071
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
-#define mod 1000000007
+using namespace std;#define endl '\n'#define mod 1000000007
 
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll t, x, y;
+  int t, x, y;
   cin>>t;
 
-  for (ll i=0; i<t; i++) {
-    ll m, mval, val;
+  for (int i=0; i<t; i++) {
+    int m, mval, val;
     cin>>y>>x; // Values are given in reversed order
 
     // Finding the value at the nearest diagonal

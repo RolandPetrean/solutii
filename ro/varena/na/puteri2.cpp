@@ -1,7 +1,6 @@
 // https://www.varena.ro/problema/puteri2
 #include <bits/stdc++.h>
-using namespace std;
-#define MOD 100019
+using namespace std;#define mod 100019
 
 ifstream fin("puteri2.in");
 ofstream fout("puteri2.out");

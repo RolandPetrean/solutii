@@ -1,8 +1,6 @@
 // https://www.pbinfo.ro/probleme/1760/optim
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
 #define mod 1000000007
 
 ifstream fin("optim.in");
@@ -12,7 +10,7 @@ int main() {
   int n, k;
   fin>>n>>k;
 
-  vector<ll> x(n);
+  vector<long long> x(n);
   for (int i=0; i<n; ++i) fin>>x[i];
 
   // maxi[i][j] - maximul format din primele i+1 numere cu j inmultiri

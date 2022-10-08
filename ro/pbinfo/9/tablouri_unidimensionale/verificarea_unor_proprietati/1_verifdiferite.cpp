@@ -1,20 +1,17 @@
 // https://www.pbinfo.ro/probleme/502/verifdiferite
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
-#define mod 1000000007
+using namespace std;#define endl '\n'#define mod 1000000007
 
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll n;
+  long long n;
   cin>>n;
 
-  set<ll> e;
-  for (ll i=1; i<=n; ++i) {
-    ll x;
+  set<long long> e;
+  for (int i=1; i<=n; ++i) {
+    long long x;
     cin>>x;
 
     if (e.count(x)>0) {

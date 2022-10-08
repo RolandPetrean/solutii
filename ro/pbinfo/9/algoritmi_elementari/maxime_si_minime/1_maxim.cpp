@@ -1,16 +1,14 @@
 // https://www.pbinfo.ro/probleme/54/maxim
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
+using namespace std;#define endl '\n'
 
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll x;
+  long long x;
   cin>>x;
-  ll m=x;
+  long long m=x;
   if (m == 0) {
     cout<<"NU EXISTA";
     return 0;

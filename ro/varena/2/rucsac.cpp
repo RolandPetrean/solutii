@@ -1,8 +1,6 @@
 // https://www.varena.ro/problema/rucsac
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
 #define mod 999979
 
 ifstream fin("rucsac.in");

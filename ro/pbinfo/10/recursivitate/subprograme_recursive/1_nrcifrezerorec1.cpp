@@ -1,12 +1,9 @@
 // https://www.pbinfo.ro/probleme/919/nrcifrezerorec1
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
-#define endl '\n'
-#define mod 1000000007
+#define endl '\n'#define mod 1000000007
 
-void nr_cif_zero(ll n, int& z) {
+void nr_cif_zero(long long n, int& z) {
   if (n == 0) z=1;
   else {
     if (n/10 == 0) z=0;

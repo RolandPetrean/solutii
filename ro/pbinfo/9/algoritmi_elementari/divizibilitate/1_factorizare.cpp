@@ -1,19 +1,17 @@
 // https://www.pbinfo.ro/probleme/62/factorizare
 #include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define endl '\n'
+using namespace std;#define endl '\n'
 
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
-  ll n;
+  long long n;
   cin>>n;
 
-  ll d=2;
+  long long d=2;
   while (n>1) {
-    ll p=0;
+    long long p=0;
     while (n%d==0) {
       n /= d;
       ++p;
