@@ -1,50 +1,43 @@
 // https://www.varena.ro/problema/bila1
 #include <bits/stdc++.h>
+#define LIM 126
 using namespace std;
 
 ifstream fin("bila1.in");
 ofstream fout("bila1.out");
 
+int n, m;
+int h[LIM][LIM], v[LIM][LIM];
 array<pair<int,int>,4> dir{{{1, 0}, {-1, 0}, {0, 1}, {0, -1}}};
 
-int main() {
-  int n, m;
-  fin>>n>>m;
+int bila(int x, int y) {
+  if (v[x][y]) return v[x][y];
 
-  vector<vector<int>> h(n, vector<int>(m));
-  for (int i=0; i<n; ++i) {
-    for (int j=0; j<m; ++j) fin>>h[i][j];
+  pair<int,int> mini{x,y};
+  for (pair<int,int> d:dir) {
+    int tx=x+d.first, ty=y+d.second;
+    if (tx>=0 && ty>=0 && tx<n && ty<m && h[tx][ty]<h[mini.first][mini.second]) mini = {tx, ty};
   }
 
-  vector<vector<int>> v(n, vector<int>(m));
+  if (mini.first == x && mini.second == y) return 1;
+
+  v[x][y] = 1+bila(mini.first, mini.second);
+  return v[x][y];
+}
+
+int main() {
+  fin>>n>>m;
+
   for (int i=0; i<n; ++i) {
-    for (int j=0; j<m; ++j) {
-      int t=1, x=i, y=j;
-      for (;; ++t) {
-        pair<int,int> mini{x,y};
-        for (pair<int,int> d:dir) {
-          int nx=x+d.first, ny=y+d.second;
-          if (nx>=0 && ny>=0 && nx<n && ny<m && h[nx][ny]<h[mini.first][mini.second]) mini = {nx,ny};
-        }
-
-        if (v[mini.first][mini.second]) {
-          t += v[mini.first][mini.second];
-          break;
-        } else if (x == mini.first && y == mini.second) break;
-
-        x = mini.first;
-        y = mini.second;
-      }
-      v[i][j] = t;
-    }
+    for (int j=0; j<m; ++j) fin>>h[i][j];
   }
 
   pair<int,int> maxi{};
   for (int i=0; i<n; ++i) {
     for (int j=0; j<m; ++j) {
-      if (v[i][j]>v[maxi.first][maxi.second] || (v[i][j] == v[maxi.first][maxi.second] && h[i][j]<h[maxi.first][maxi.second])) {
+      int x=bila(i, j);
+      if (x>v[maxi.first][maxi.second] || (x == v[maxi.first][maxi.second] && h[i][j]<h[maxi.first][maxi.second]))
         maxi = {i, j};
-      }
     }
   }
 
