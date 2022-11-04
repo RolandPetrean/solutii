@@ -1,9 +1,10 @@
 // https://www.varena.ro/problema/disjoint
 #include <bits/stdc++.h>
+#define endl '\n'
 using namespace std;
 
-ifstream fin("disjoint.in");
-ofstream fout("disjoint.out");
+#include <bits/stdc++.h>
+using namespace std;
 
 int uf[100001], sz[100001];
 void uf_init(int n) {
@@ -27,20 +28,23 @@ void uf_union(int a, int b) {
 }
 
 int main() {
+  ios_base::sync_with_stdio(false);
+  cin.tie(NULL);
+
   int n, m;
-  fin>>n>>m;
+  cin>>n>>m;
 
   uf_init(n);
   for (int i=0; i<m; ++i) {
     int cod, x, y;
-    fin>>cod>>x>>y;
+    cin>>cod>>x>>y;
     x = uf_find(x);
     y = uf_find(y);
 
     if (cod==1) uf_union(x, y);
     else {
-      if (x==y) fout<<"DA\n";
-      else fout<<"NU\n";
+      if (x==y) cout<<"DA\n";
+      else cout<<"NU\n";
     }
   }
 }
