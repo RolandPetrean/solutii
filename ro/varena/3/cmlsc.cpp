@@ -1,4 +1,4 @@
-// https://infoarena.ro/problema/cmlsc
+// https://varena.ro/problema/cmlsc
 #include <bits/stdc++.h>
 using namespace std;
 #define endl '\n'
