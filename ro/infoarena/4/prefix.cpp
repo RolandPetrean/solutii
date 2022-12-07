@@ -23,7 +23,6 @@ int main() {
       while (j>0 && s[j] != s[i]) j = pi[j-1];
       if (s[i] == s[j]) pi[i] = j+1;
       if (pi[i] && (i+1)%(i-pi[i]+1)==0) ans = i+1;
-      cout<<pi[i]<<" ";
     }
     fout<<ans<<endl;
   }
