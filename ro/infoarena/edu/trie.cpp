@@ -44,8 +44,7 @@ struct Trie {
       if (node->isEmpty() && !node->words) return true;
       return false;
     }
-    bool ok=del(node->children[w[dep]-'a'], w, dep+1);
-    if (ok) node->children[w[dep]-'a'] = NULL;
+    if (del(node->children[w[dep]-'a'], w, dep+1)) node->children[w[dep]-'a'] = NULL;
     if (node->isEmpty() && !node->words) return true;
     return false;
   }
