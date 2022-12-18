@@ -12,8 +12,7 @@ inline long long gauss(int x) {
 long long supersuma(int n) {
   long long s=0;
   for (int i=1; i*i<=n; ++i) {
-    int x=n/i;
-    s += gauss(x)-gauss(i-1)+i*(n/i-i);
+    s += gauss(n/i)-gauss(i-1)+i*(n/i-i);
   }
   return s;
 }

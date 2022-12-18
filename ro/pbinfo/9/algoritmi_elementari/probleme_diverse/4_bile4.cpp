@@ -20,6 +20,7 @@ int main() {
     if (n&1) fout<<(n+1)/2;
     else fout<<-1;
   } else {
+    // TODO ig
     // (a1+a2+...+ak)/k = k
     // a1+a2+...+ak = k^2
 
