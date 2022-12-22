@@ -1,3 +1,4 @@
+// https://www.codechef.com/problems/KITCHENTIME
 #include <bits/stdc++.h>
 using namespace std;
 #define endl '\n'

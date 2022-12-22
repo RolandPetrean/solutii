@@ -1,3 +1,4 @@
+// https://www.codechef.com/problems/MINDIST1
 #include <bits/stdc++.h>
 using namespace std;
 #define endl '\n'
