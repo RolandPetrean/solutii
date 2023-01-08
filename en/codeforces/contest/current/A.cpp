@@ -1,11 +1,9 @@
-// https://codeforces.com/contest/1770/problem/A
+// https://codeforces.com/contest/1783/problem/A
 #include <bits/stdc++.h>
 using namespace std;
 #define endl '\n'
 
-#define int long long
-
-signed main() {
+int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
@@ -13,24 +11,31 @@ signed main() {
   cin>>t;
 
   while (t--) {
-    int n, m;
-    cin>>n>>m;
+    int n;
+    cin>>n;
 
-    vector<int> a(n), b(m);
+    vector<int> a(n);
     for (int i=0; i<n; ++i) cin>>a[i];
-    for (int i=0; i<m; ++i) cin>>b[i];
-    
-    // O(nm)
-    for (int i=0; i<m; ++i) {
-      int minj=0;
-      for (int j=0; j<n; ++j) {
-        if (a[j]<a[minj]) minj = j;
+    sort(a.begin(), a.end(), greater<int>());
+
+    if (a[1]==a[0]) {
+      for (int i=1; i<n; ++i) {
+        if (a[i] != a[0]) swap(a[1], a[i]);
       }
-      a[minj] = b[i]; // Always set minimum
+    }
+    
+    bool ok=true;
+    int s=0;
+    for (int i=0; i<n && ok; ++i) {
+      if (a[i]==s) ok = false;
+      s += a[i];
     }
 
-    int s=0;
-    for (int i=0; i<n; ++i) s += a[i];
-    cout<<s<<endl;
+    if (!ok) cout<<"NO\n";
+    else {
+      cout<<"YES"<<endl;
+      for (int x:a) cout<<x<<" ";
+      cout<<endl;
+    }
   }
 }

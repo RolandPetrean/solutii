@@ -3,7 +3,9 @@
 using namespace std;
 #define endl '\n'
 
-int main() {
+#define int long long
+
+signed main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   
@@ -14,10 +16,13 @@ int main() {
     int n;
     cin>>n;
 
-    vector<int> a(n);
-    for (int i=0; i<n; ++i) cin>>a[i];
+    int p=1;
+    for (int i=0; i<n; ++i) {
+      int a;
+      cin>>a;
+      p *= a;
+    }
 
-    int m=10-n;
-    cout<<6*(m*(m-1)/2)<<endl;
+    cout<<2022*(p+n-1)<<endl;
   }
 }
